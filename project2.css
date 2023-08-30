@@ -5,7 +5,7 @@
 }
 
 body{
-    color: #F9F9F9;
+    color: #E6E6E6;
 }
 
 a{
@@ -74,7 +74,7 @@ margin-top: 30px;
 }
 
 .first_part{
-    width: 100%;
+    width: 90%;
     display: flex;
 }
 
@@ -101,7 +101,7 @@ margin-top: 30px;
 }
 
 .second_part a{
-    margin: 10px;
+    margin: 5px;
 }
 
 .second_part a:nth-child(1){
@@ -271,6 +271,45 @@ margin-top: 30px;
 
     .group2{
         margin: 0px 5%;
+    }
+
+    .header{
+        margin-top: 10px;
+    }
+
+    .test{
+        margin-top: 10px;
+    }
+
+    .second_part a:nth-child(1){
+        color: black;
+        border: 1px solid rgb(173, 173, 173);
+        padding: 0px;
+        background-color: white;
+    }
+    
+    .second_part a:nth-child(2){
+        color: black;
+        border: 1px solid rgb(173, 173, 173);
+        padding: 0px;
+        background-color: white;
+    }
+    
+    .second_part a:nth-child(3){
+        color: black;
+        border: 1px solid rgb(173, 173, 173);
+        padding: 0px;
+        background-color: white;
+    }
+    
+    .second_part a:nth-child(4){
+        border: 1px solid transparent;
+        padding: 0px;
+        background-color: white;
+    }
+
+    .second_part a{
+        margin: 0px;
     }
 
 }
